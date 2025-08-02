@@ -5,6 +5,7 @@ def main():
     while True:
         print("Seleccione la operación:")
         print("1. Sumar")
+        print("2. Restar")
         print("6. Salir")
 
         choice = input("Ingrese su elección (1-6): ")
@@ -12,13 +13,15 @@ def main():
         if choice == '6':
             print("Saliendo de la calculadora.")
             break
-        
-        if choice in ['1']:
+
+        if choice in ['1', '2']:
             a = float(input("Ingrese el primer número: "))
             b = float(input("Ingrese el segundo número: "))
             
             if choice == '1':
                 print(f"Resultado: {calc.add(a, b)}")
+            elif choice == '2':
+                print(f"Resultado: {calc.subtract(a, b)}")
         else:
             print("Opción no válida. Intente de nuevo.")
 
