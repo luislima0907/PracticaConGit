@@ -13,6 +13,7 @@ python-calculator
 │   │   ├── addition.py        # Suma
 │   │   ├── subtraction.py     # Resta
 │   │   ├── multiplication.py   # Multiplicación
+│   │   ├── division.py        # División
 │   └── main.py                # Punto de entrada del programa
 └── README.md                  # Documentación del proyecto
 ```
