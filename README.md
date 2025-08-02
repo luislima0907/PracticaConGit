@@ -12,6 +12,7 @@ python-calculator
 │   │   ├── __init__.py        # Inicializa el paquete de operaciones
 │   │   ├── addition.py        # Suma
 │   │   ├── subtraction.py     # Resta
+│   │   ├── multiplication.py   # Multiplicación
 │   └── main.py                # Punto de entrada del programa
 └── README.md                  # Documentación del proyecto
 ```
