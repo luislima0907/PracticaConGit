@@ -14,6 +14,7 @@ python-calculator
 │   │   ├── subtraction.py     # Resta
 │   │   ├── multiplication.py   # Multiplicación
 │   │   ├── division.py        # División
+│   │   └── power.py          # Potencia
 │   └── main.py                # Punto de entrada del programa
 └── README.md                  # Documentación del proyecto
 ```
